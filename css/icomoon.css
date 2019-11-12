@@ -1,0 +1,44 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?gtx58d');
+  src:  url('../fonts/icomoon.eot?gtx58d#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?gtx58d') format('truetype'),
+    url('../fonts/icomoon.woff?gtx58d') format('woff'),
+    url('../fonts/icomoon.svg?gtx58d#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-old-phone:before {
+  content: "\e900";
+}
+.icon-telegram:before {
+  content: "\e901";
+  color: #2ca5e0;
+}
+.icon-viber:before {
+  content: "\e902";
+  color: #665cac;
+}
+.icon-whatsapp:before {
+  content: "\e903";
+  color: #25d366;
+}
+.icon-phone1:before {
+  content: "\e942";
+}
